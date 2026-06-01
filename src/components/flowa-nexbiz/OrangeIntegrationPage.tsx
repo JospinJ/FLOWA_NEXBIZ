@@ -186,9 +186,9 @@ export default function OrangeIntegrationPage() {
           <motion.div variants={staggerContainer} initial="hidden" animate="visible">
             {/* Orange Logo placeholder */}
             <motion.div variants={fadeUp} custom={0} className="mb-6 flex justify-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#FF6600] shadow-xl shadow-orange-500/30">
-                <Smartphone className="h-8 w-8 text-white" />
-              </div>
+              <a href="https://www.orange.cm" target="_blank" rel="noopener noreferrer" aria-label="Orange Cameroun">
+                <img src="/logo-orange.svg" alt="Orange Cameroun" className="h-16 w-16 rounded-2xl shadow-xl" />
+              </a>
             </motion.div>
 
             <motion.div variants={fadeUp} custom={1}>
