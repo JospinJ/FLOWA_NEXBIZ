@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Flowa × NexBiz — OSC 2026" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/logo-orange.svg",
   },
   openGraph: {
     title: "Flowa × NexBiz — La Super-App IA pour PME Africaines",
